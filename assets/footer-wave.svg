@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" fill="none">
+  <defs>
+    <linearGradient id="footerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6C63FF;stop-opacity:0.1"/>
+      <stop offset="50%" style="stop-color:#00ff41;stop-opacity:0.05"/>
+      <stop offset="100%" style="stop-color:#6C63FF;stop-opacity:0.1"/>
+    </linearGradient>
+    <linearGradient id="footerLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6C63FF;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#6C63FF;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#6C63FF;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes footerPulse {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 0.5; }
+    }
+    @keyframes footerWave {
+      0% { d: path("M 0 30 Q 300 10, 600 30 Q 900 50, 1200 30 L 1200 100 L 0 100 Z"); }
+      50% { d: path("M 0 30 Q 300 50, 600 30 Q 900 10, 1200 30 L 1200 100 L 0 100 Z"); }
+      100% { d: path("M 0 30 Q 300 10, 600 30 Q 900 50, 1200 30 L 1200 100 L 0 100 Z"); }
+    }
+    .footer-wave { animation: footerWave 8s ease-in-out infinite; }
+    .footer-pulse { animation: footerPulse 3s ease-in-out infinite; }
+  </style>
+
+  <!-- Top accent line -->
+  <rect x="0" y="0" width="1200" height="1" fill="url(#footerLine)"/>
+
+  <!-- Animated wave fill -->
+  <path class="footer-wave" d="M 0 30 Q 300 10, 600 30 Q 900 50, 1200 30 L 1200 100 L 0 100 Z" fill="url(#footerGrad)"/>
+
+  <!-- Secondary wave -->
+  <path class="footer-pulse" d="M 0 50 Q 200 35, 400 50 Q 600 65, 800 50 Q 1000 35, 1200 50 L 1200 100 L 0 100 Z" fill="url(#footerGrad)" opacity="0.5"/>
+
+  <!-- End of transmission text -->
+  <text x="600" y="80" font-family="'Courier New', monospace" font-size="9" fill="#555555" text-anchor="middle" letter-spacing="4" opacity="0.4">END OF TRANSMISSION // LA777am</text>
+</svg>

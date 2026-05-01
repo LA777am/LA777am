@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" fill="none">
+  <defs>
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6C63FF;stop-opacity:0"/>
+      <stop offset="25%" style="stop-color:#6C63FF;stop-opacity:0.4"/>
+      <stop offset="50%" style="stop-color:#00ff41;stop-opacity:0.6"/>
+      <stop offset="75%" style="stop-color:#6C63FF;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#6C63FF;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="waveGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff41;stop-opacity:0"/>
+      <stop offset="30%" style="stop-color:#00ff41;stop-opacity:0.3"/>
+      <stop offset="50%" style="stop-color:#6C63FF;stop-opacity:0.5"/>
+      <stop offset="70%" style="stop-color:#00ff41;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#00ff41;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    @keyframes waveFlow1 {
+      0% { d: path("M 0 20 Q 150 5, 300 20 Q 450 35, 600 20 Q 750 5, 900 20 Q 1050 35, 1200 20"); }
+      50% { d: path("M 0 20 Q 150 35, 300 20 Q 450 5, 600 20 Q 750 35, 900 20 Q 1050 5, 1200 20"); }
+      100% { d: path("M 0 20 Q 150 5, 300 20 Q 450 35, 600 20 Q 750 5, 900 20 Q 1050 35, 1200 20"); }
+    }
+    @keyframes waveFlow2 {
+      0% { d: path("M 0 20 Q 200 30, 400 20 Q 600 10, 800 20 Q 1000 30, 1200 20"); }
+      50% { d: path("M 0 20 Q 200 10, 400 20 Q 600 30, 800 20 Q 1000 10, 1200 20"); }
+      100% { d: path("M 0 20 Q 200 30, 400 20 Q 600 10, 800 20 Q 1000 30, 1200 20"); }
+    }
+    .wave1 {
+      animation: waveFlow1 6s ease-in-out infinite;
+    }
+    .wave2 {
+      animation: waveFlow2 8s ease-in-out infinite;
+    }
+  </style>
+  
+  <path class="wave1" d="M 0 20 Q 150 5, 300 20 Q 450 35, 600 20 Q 750 5, 900 20 Q 1050 35, 1200 20" 
+        stroke="url(#waveGrad1)" stroke-width="1.5" fill="none"/>
+  <path class="wave2" d="M 0 20 Q 200 30, 400 20 Q 600 10, 800 20 Q 1000 30, 1200 20" 
+        stroke="url(#waveGrad2)" stroke-width="1" fill="none"/>
+</svg>

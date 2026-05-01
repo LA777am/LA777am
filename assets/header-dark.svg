@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" fill="none">
+  <defs>
+    <!-- Gradient definitions -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#161b22"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6C63FF"/>
+      <stop offset="50%" style="stop-color:#00ff41"/>
+      <stop offset="100%" style="stop-color:#6C63FF"/>
+    </linearGradient>
+    
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c9d1d9"/>
+      <stop offset="50%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#c9d1d9"/>
+    </linearGradient>
+    
+    <linearGradient id="flowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6C63FF;stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:#6C63FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6C63FF;stop-opacity:0"/>
+    </linearGradient>
+    
+    <linearGradient id="particleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff41;stop-opacity:0"/>
+      <stop offset="40%" style="stop-color:#00ff41;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#00ff41;stop-opacity:0"/>
+    </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes dataFlow {
+      0% { transform: translateX(-200px); opacity: 0; }
+      10% { opacity: 1; }
+      90% { opacity: 1; }
+      100% { transform: translateX(1400px); opacity: 0; }
+    }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+    
+    @keyframes orbitX {
+      0% { transform: translateX(-30px); }
+      50% { transform: translateX(30px); }
+      100% { transform: translateX(-30px); }
+    }
+    
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(10px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes scanline {
+      0% { transform: translateY(-150px); }
+      100% { transform: translateY(300px); }
+    }
+
+    @keyframes nodeGlow {
+      0%, 100% { r: 3; opacity: 0.5; }
+      50% { r: 5; opacity: 1; }
+    }
+
+    .data-stream {
+      animation: dataFlow 8s linear infinite;
+    }
+    .data-stream-2 {
+      animation: dataFlow 6s linear infinite;
+      animation-delay: 2s;
+    }
+    .data-stream-3 {
+      animation: dataFlow 10s linear infinite;
+      animation-delay: 4s;
+    }
+    
+    .pulse-node {
+      animation: pulse 2s ease-in-out infinite;
+    }
+    .pulse-node-2 {
+      animation: pulse 2s ease-in-out infinite;
+      animation-delay: 0.5s;
+    }
+    .pulse-node-3 {
+      animation: pulse 2s ease-in-out infinite;
+      animation-delay: 1s;
+    }
+
+    .orbit-element {
+      animation: orbitX 4s ease-in-out infinite;
+    }
+
+    .scan {
+      animation: scanline 4s linear infinite;
+      opacity: 0.05;
+    }
+
+    .node-pulse {
+      animation: nodeGlow 3s ease-in-out infinite;
+    }
+    .node-pulse-2 {
+      animation: nodeGlow 3s ease-in-out infinite;
+      animation-delay: 1s;
+    }
+    .node-pulse-3 {
+      animation: nodeGlow 3s ease-in-out infinite;
+      animation-delay: 2s;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bgGrad)"/>
+
+  <!-- Scanline effect -->
+  <rect class="scan" x="0" y="0" width="1200" height="2" fill="#6C63FF"/>
+
+  <!-- Grid pattern (very subtle) -->
+  <g opacity="0.03">
+    <line x1="0" y1="50" x2="1200" y2="50" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="0" y1="100" x2="1200" y2="100" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="0" y1="150" x2="1200" y2="150" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="0" y1="200" x2="1200" y2="200" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="0" y1="250" x2="1200" y2="250" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="100" y1="0" x2="100" y2="300" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="200" y1="0" x2="200" y2="300" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="300" y1="0" x2="300" y2="300" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="400" y1="0" x2="400" y2="300" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="500" y1="0" x2="500" y2="300" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="600" y1="0" x2="600" y2="300" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="700" y1="0" x2="700" y2="300" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="800" y1="0" x2="800" y2="300" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="900" y1="0" x2="900" y2="300" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="1000" y1="0" x2="1000" y2="300" stroke="#6C63FF" stroke-width="0.5"/>
+    <line x1="1100" y1="0" x2="1100" y2="300" stroke="#6C63FF" stroke-width="0.5"/>
+  </g>
+
+  <!-- Data flow streams -->
+  <rect class="data-stream" x="0" y="80" width="150" height="1" fill="url(#flowGrad)" rx="1"/>
+  <rect class="data-stream-2" x="0" y="220" width="100" height="1" fill="url(#particleGrad)" rx="1"/>
+  <rect class="data-stream-3" x="0" y="150" width="200" height="1" fill="url(#flowGrad)" rx="1"/>
+
+  <!-- Circuit nodes -->
+  <circle class="node-pulse" cx="150" cy="80" r="3" fill="#6C63FF" filter="url(#glow)"/>
+  <circle class="node-pulse-2" cx="400" cy="220" r="3" fill="#00ff41" filter="url(#glow)"/>
+  <circle class="node-pulse-3" cx="800" cy="80" r="3" fill="#6C63FF" filter="url(#glow)"/>
+  <circle class="node-pulse" cx="1050" cy="220" r="3" fill="#00ff41" filter="url(#glow)"/>
+
+  <!-- Circuit lines connecting nodes -->
+  <path d="M 150 80 L 250 80 L 280 150" stroke="#6C63FF" stroke-width="0.5" fill="none" opacity="0.15"/>
+  <path d="M 800 80 L 900 80 L 950 150 L 1050 220" stroke="#6C63FF" stroke-width="0.5" fill="none" opacity="0.15"/>
+  <path d="M 400 220 L 500 220 L 550 150" stroke="#00ff41" stroke-width="0.5" fill="none" opacity="0.1"/>
+
+  <!-- DNA Helix orbit (left side decoration) -->
+  <g class="orbit-element" opacity="0.6">
+    <ellipse cx="120" cy="150" rx="40" ry="60" stroke="#6C63FF" stroke-width="0.8" fill="none" opacity="0.2" stroke-dasharray="4 6"/>
+  </g>
+
+  <!-- DNA Helix orbit (right side decoration) -->
+  <g class="orbit-element" opacity="0.6" style="animation-delay: 2s;">
+    <ellipse cx="1080" cy="150" rx="40" ry="60" stroke="#00ff41" stroke-width="0.8" fill="none" opacity="0.2" stroke-dasharray="4 6"/>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="115" font-family="'Courier New', monospace" font-size="48" font-weight="bold" fill="url(#textGrad)" text-anchor="middle" letter-spacing="8">
+    AYUSH MALI
+  </text>
+
+  <!-- Accent line under title -->
+  <rect x="350" y="130" width="500" height="2" fill="url(#accentGrad)" rx="1" opacity="0.6"/>
+
+  <!-- Subtitle -->
+  <text x="600" y="165" font-family="'Courier New', monospace" font-size="14" fill="#6C63FF" text-anchor="middle" letter-spacing="4" opacity="0.9">
+    SYSTEM BUILDER
+  </text>
+
+  <!-- Tagline -->
+  <text x="600" y="195" font-family="'Courier New', monospace" font-size="11" fill="#555555" text-anchor="middle" letter-spacing="3">
+    COMPUTATIONAL PLATFORMS  ·  BACKEND INTELLIGENCE  ·  ML SYSTEMS
+  </text>
+
+  <!-- Status indicators -->
+  <g opacity="0.7">
+    <!-- Left status -->
+    <circle class="pulse-node" cx="380" cy="240" r="4" fill="#00ff41"/>
+    <text x="392" y="244" font-family="'Courier New', monospace" font-size="9" fill="#555555" letter-spacing="2">SYSTEMS ONLINE</text>
+    
+    <!-- Right status -->
+    <circle class="pulse-node-2" cx="700" cy="240" r="4" fill="#6C63FF"/>
+    <text x="712" y="244" font-family="'Courier New', monospace" font-size="9" fill="#555555" letter-spacing="2">BUILDING...</text>
+  </g>
+
+  <!-- Corner decorations — circuit endpoints -->
+  <g opacity="0.2">
+    <!-- Top-left -->
+    <path d="M 0 0 L 60 0 L 60 5 M 0 0 L 0 60 L 5 60" stroke="#6C63FF" stroke-width="1.5" fill="none"/>
+    <!-- Top-right -->
+    <path d="M 1200 0 L 1140 0 L 1140 5 M 1200 0 L 1200 60 L 1195 60" stroke="#6C63FF" stroke-width="1.5" fill="none"/>
+    <!-- Bottom-left -->
+    <path d="M 0 300 L 60 300 L 60 295 M 0 300 L 0 240 L 5 240" stroke="#00ff41" stroke-width="1.5" fill="none"/>
+    <!-- Bottom-right -->
+    <path d="M 1200 300 L 1140 300 L 1140 295 M 1200 300 L 1200 240 L 1195 240" stroke="#00ff41" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="297" width="1200" height="3" fill="url(#accentGrad)" opacity="0.3"/>
+</svg>

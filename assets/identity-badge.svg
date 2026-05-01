@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" fill="none">
+  <defs>
+    <linearGradient id="badgeBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="badgeAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6C63FF"/>
+      <stop offset="100%" style="stop-color:#00ff41"/>
+    </linearGradient>
+    <filter id="badgeGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  
+  <style>
+    @keyframes borderPulse {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 0.8; }
+    }
+    @keyframes dotPulse {
+      0%, 100% { opacity: 0.4; r: 3; }
+      50% { opacity: 1; r: 4; }
+    }
+    .border-pulse { animation: borderPulse 3s ease-in-out infinite; }
+    .dot-pulse { animation: dotPulse 2s ease-in-out infinite; }
+    .dot-pulse-2 { animation: dotPulse 2s ease-in-out infinite; animation-delay: 0.7s; }
+    .dot-pulse-3 { animation: dotPulse 2s ease-in-out infinite; animation-delay: 1.4s; }
+
+    @media (prefers-color-scheme: light) {
+      .bg-fill { fill: #f6f8fa; }
+      .text-primary { fill: #24292f; }
+      .text-secondary { fill: #57606a; }
+      .text-mono { fill: #6C63FF; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .bg-fill { fill: url(#badgeBg); }
+      .text-primary { fill: #e6edf3; }
+      .text-secondary { fill: #8b949e; }
+      .text-mono { fill: #6C63FF; }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect class="bg-fill" width="1200" height="80" rx="8" fill="url(#badgeBg)"/>
+  
+  <!-- Border -->
+  <rect class="border-pulse" x="1" y="1" width="1198" height="78" rx="8" fill="none" stroke="url(#badgeAccent)" stroke-width="1"/>
+
+  <!-- Left bracket -->
+  <text x="30" y="48" font-family="'Courier New', monospace" font-size="28" class="text-mono" opacity="0.4">[</text>
+  
+  <!-- Identity dots -->
+  <circle class="dot-pulse" cx="70" cy="40" r="3" fill="#6C63FF" filter="url(#badgeGlow)"/>
+  <circle class="dot-pulse-2" cx="85" cy="40" r="3" fill="#00ff41" filter="url(#badgeGlow)"/>
+  <circle class="dot-pulse-3" cx="100" cy="40" r="3" fill="#6C63FF" filter="url(#badgeGlow)"/>
+
+  <!-- Main text -->
+  <text x="130" y="35" font-family="'Courier New', monospace" font-size="12" class="text-secondary" letter-spacing="3">IDENTITY</text>
+  <text x="130" y="55" font-family="'Courier New', monospace" font-size="16" class="text-primary" font-weight="bold" letter-spacing="2">AYUSH MALI</text>
+
+  <!-- Separator -->
+  <line x1="340" y1="15" x2="340" y2="65" stroke="#6C63FF" stroke-width="1" opacity="0.2"/>
+
+  <!-- Role -->
+  <text x="370" y="35" font-family="'Courier New', monospace" font-size="12" class="text-secondary" letter-spacing="3">CLASSIFICATION</text>
+  <text x="370" y="55" font-family="'Courier New', monospace" font-size="14" class="text-mono" letter-spacing="1">System Builder // Platform Engineer</text>
+
+  <!-- Separator -->
+  <line x1="750" y1="15" x2="750" y2="65" stroke="#6C63FF" stroke-width="1" opacity="0.2"/>
+
+  <!-- Status -->
+  <text x="780" y="35" font-family="'Courier New', monospace" font-size="12" class="text-secondary" letter-spacing="3">DOMAIN</text>
+  <text x="780" y="55" font-family="'Courier New', monospace" font-size="13" class="text-primary" letter-spacing="1">Computational Platforms · ML Systems · Backend</text>
+
+  <!-- Right bracket -->
+  <text x="1155" y="48" font-family="'Courier New', monospace" font-size="28" class="text-mono" opacity="0.4">]</text>
+</svg>
