@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/header-wave.svg" width="100%" alt="header wave"/>
+<img src="./assets/header-dark.svg" width="100%" alt="header wave"/>
 
 <br/>
 
