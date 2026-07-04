@@ -11,11 +11,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=2800&pause=900&color=E57373&center=true&vCenter=true&width=1100&lines=Turning+Ambitious+Ideas+Into+Reality.;Building+Software+That+Challenges+Code+%26+Curiosity." alt="Typing SVG" />
 </a>
 
-<p align="center" style="font-size: 1.2em;">
-<i>Turning ambitious ideas into reality by engineering software that challenges both code and curiosity.</i>
-</p>
 
-<br/>
 
 <a href="mailto:your.email@example.com">
 <img src="https://img.shields.io/badge/Email-990000?style=for-the-badge&logo=gmail&logoColor=white" />
