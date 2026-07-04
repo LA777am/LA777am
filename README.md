@@ -20,9 +20,6 @@
 <a href="https://linkedin.com/in/ayushmali">
 <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=990000" />
 </a>
-
-<br/><br/>
-
 <img src="https://komarev.com/ghpvc/?username=la777am&label=Profile+Views&color=990000&style=flat" alt="profile views"/>
 
 </div>
