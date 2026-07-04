@@ -4,10 +4,6 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/DRIVEN_BY-Curiosity-0d1117?style=for-the-badge&labelColor=6C63FF" alt="Driven By"/>
-<img src="https://img.shields.io/badge/CURRENT_FOCUS-AI_Systems_%E2%80%A2_Backend_Engineering-0d1117?style=for-the-badge&labelColor=6C63FF" alt="Current Focus"/>
-
-<br/>
 <br/>
 <br/>
 
