@@ -117,11 +117,13 @@
 </div>
 
 <p align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=la777am&show_icons=true&theme=tokyonight&hide_border=true"/>
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=la777am&layout=compact&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api?username=la777am&show_icons=true&theme=tokyonight&hide_border=true"/>
 </p>
 <p align="center">
-<img width="70%" src="https://github-readme-streak-stats.herokuapp.com?user=la777am&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=la777am&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
+<p align="center">
+<img src="https://github-readme-streak-stats.herokuapp.com?user=la777am&theme=tokyonight&hide_border=true"/>
 </p>
 
 <br/>
