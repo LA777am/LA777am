@@ -1,114 +1,166 @@
 <div align="center">
 
-<!-- Wavy Animated Header (Red) -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=990000&height=250&section=header&text=Ayush%20Mali&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Fullstack%20Developer&descAlignY=65&descAlign=50" width="100%" />
+<!-- Full-Width Wave Animation -->
+<img src="https://raw.githubusercontent.com/kyechan99/capsule-render/core/src/assets/wave.svg" width="100%" alt="Wave Animation" />
 
-<!-- Static Tagline (No Blink) -->
-<h3><i>Turning ambitious ideas into reality.</i></h3>
+<br><br>
+
+<h1 align="center">
+  <b>AYUSH MALI</b>
+</h1>
+
+<p align="center">
+  <i>Turning ambitious ideas into reality by engineering software that challenges both code and curiosity.</i>
+</p>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=18&pause=1500&color=990000&center=true&vCenter=true&width=800&lines=Turning+Ambitious+Ideas+Into+Reality.;Building+Software+That+Challenges+Code+%26+Curiosity.;AI+•+Backend+•+System+Design.;Machine+Learning+•+Deep+Learning.;Exploring+Orbital+Dynamics.;Always+Building.+Always+Learning." alt="Typing SVG" />
+</a>
+
+<br><br>
+
+<a href="https://linkedin.com/in/ayushmali">
+  <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=ffffff&border=990000"/>
+</a>
+&nbsp;&nbsp;
+<a href="mailto:ayushmali1904@gmail.com">
+  <img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=ffffff&border=990000"/>
+</a>
+
+<br><br>
+
+<img src="https://komarev.com/ghpvc/?username=la777am&style=for-the-badge&color=990000&labelColor=0D1117&label=PROFILE+VIEWS" alt="Profile Views"/>
+
+<br><br><br>
+
+</div>
+
+---
 
 <br>
 
-<a href="https://linkedin.com/in/ayushmali">
-  <img src="https://img.shields.io/badge/LinkedIn-282A36?style=for-the-badge&logo=linkedin&logoColor=ffffff"/>
-</a>
-<a href="mailto:ayushmali1904@gmail.com">
-  <img src="https://img.shields.io/badge/Email-282A36?style=for-the-badge&logo=gmail&logoColor=ffffff"/>
-</a>
+<div align="center">
 
-</div>
+## ✦ ABOUT
 
----
-
-### 🚀 About Me
-
-I am a Computer Science Engineering student focused on building highly scalable, enterprise-grade platforms. My work bridges the gap between complex backend architecture and machine learning, with a strong emphasis on clean system design and computational intelligence.
-
-*   **🎓 Education:** Pursuing a Bachelor of Engineering in Computer Science.
-*   **🌱 Exploring:** Advanced Deep Learning architectures, Distributed System Design, and SGP4 Orbital Propagation.
-*   **💡 Philosophy:** Form follows function—crafting systems that are as technically robust as they are visually cinematic.
-
----
-
-### 🛰️ Featured Architecture & Projects
-
-<table width="100%">
+<table width="700">
   <tr>
-    <th width="35%" align="left">Project</th>
-    <th width="65%" align="left">Description</th>
-  </tr>
-  <tr>
-    <td><b>PANAMÆRA</b></td>
-    <td>An enterprise-grade scalable platform processing satellite TLE data, integrating physics and machine learning for advanced orbital analysis.</td>
-  </tr>
-  <tr>
-    <td><b>GenoScope</b></td>
-    <td>A full-stack computational genomics intelligence platform featuring DNA sequence analysis, mutation detection, and protein visualization.</td>
-  </tr>
-  <tr>
-    <td><b>RelayOps</b></td>
-    <td>Operational continuity platform for industrial environments ensuring seamless workflows and system reliability.</td>
-  </tr>
-  <tr>
-    <td><b>OmniParse</b></td>
-    <td>AI-powered multimodal document intelligence system for complex data extraction and parsing.</td>
+    <td align="center" style="padding: 20px;">
+      <p><b>Computer Science Engineering Student</b></p>
+      <br>
+      <p><b>FOCUSED ON</b></p>
+      <p>AI Engineering • Backend Development • System Design</p>
+      <br>
+      <p><b>CURRENTLY LEARNING</b></p>
+      <p>Machine Learning • Deep Learning • Orbital Dynamics</p>
+    </td>
   </tr>
 </table>
 
----
-
-### 🛠 Technical Arsenal
-
-<div align="center">
-  
-**Languages** <br>
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,cpp" /><br><br>
-
-**Frontend Development** <br>
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" /><br><br>
-
-**Backend Engineering** <br>
-<img src="https://skillicons.dev/icons?i=fastapi,django,flask,nodejs,express" /><br><br>
-
-**Databases & Infrastructure** <br>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,docker,linux,git" /><br><br>
-
-**AI & Machine Learning** <br>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikit" /><br>
-
-</div>
-
----
-
-### 📊 GitHub Analytics
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <!-- Simplified Stats URL -->
-        <img src="https://github-readme-stats.vercel.app/api?username=la777am&show_icons=true" alt="GitHub Stats" />
-      </td>
-      <td align="center">
-        <!-- Simplified Top Languages URL -->
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=la777am&layout=compact" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
-
-  <!-- Simplified Streak URL -->
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=la777am" alt="GitHub Streak" />
-</div>
-
----
-
-### 📈 Contribution Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=la777am&theme=react&hide_border=true" alt="Activity Graph" />
 </div>
 
 <br><br>
 
+---
+
+<br>
+
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=la777am&style=for-the-badge&color=990000&labelColor=282A36&label=PROFILE+VIEWS" alt="Profile Views"/>
+
+## ✦ ARCHITECTURE & PROJECTS
+
+<br>
+
+<table width="800">
+  <tr>
+    <td width="50%" align="center" valign="top" style="padding: 20px;">
+      <h3>🛰️ PANAMÆRA</h3>
+      <p>Enterprise-grade aerospace mission planning platform.</p>
+    </td>
+    <td width="50%" align="center" valign="top" style="padding: 20px;">
+      <h3>🏭 RelayOps</h3>
+      <p>Operational continuity platform for industrial environments.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top" style="padding: 20px;">
+      <h3>🧬 GenoScope</h3>
+      <p>Computational genomics intelligence platform for DNA analysis.</p>
+    </td>
+    <td width="50%" align="center" valign="top" style="padding: 20px;">
+      <h3>📄 OmniParse</h3>
+      <p>AI-powered multimodal document intelligence system.</p>
+    </td>
+  </tr>
+</table>
+
 </div>
+
+<br><br>
+
+---
+
+<br>
+
+<div align="center">
+
+## ✦ TECHNICAL ARSENAL
+
+<br>
+
+**Languages** <br>
+<img src="https://skillicons.dev/icons?i=python,java,js" /><br><br>
+
+**Frontend Development** <br>
+<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind" /><br><br>
+
+**Backend Engineering** <br>
+<img src="https://skillicons.dev/icons?i=fastapi,django,flask,express,nodejs" /><br><br>
+
+**Databases** <br>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,sqlite,redis" /><br><br>
+
+**AI & Machine Learning** <br>
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,scikit" />
+<br>
+*(Pandas • Seaborn)* <br><br>
+
+**Infrastructure & Tools** <br>
+<img src="https://skillicons.dev/icons?i=docker,git,linux" /><br><br>
+
+</div>
+
+<br><br>
+
+---
+
+<br>
+
+<div align="center">
+
+## ✦ METRICS & ANALYTICS
+
+<br>
+
+<table width="850">
+  <tr>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=la777am&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
+    </td>
+    <td align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=la777am&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com?user=la777am&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=la777am&theme=tokyo-night&hide_border=true&bg_color=0D1117" alt="Activity Graph" width="850" />
+
+</div>
+
+<br><br>
