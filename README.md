@@ -1,20 +1,18 @@
 <div align="center">
 
-<!-- Animated Gradient Cylinder Header -->
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=gradient&customColorList=12&height=220&section=header&text=Ayush%20Mali&fontSize=65&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=AI%20Engineer%20%E2%80%A2%20Backend%20Developer&descAlignY=65&descAlign=50" width="100%" />
+<!-- Wavy Animated Header (Red) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=990000&height=250&section=header&text=Ayush%20Mali&fontSize=75&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Fullstack%20Developer&descAlignY=65&descAlign=50" width="100%" />
 
-<!-- Vibrant Typing Animation -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=F38BA8&center=true&vCenter=true&width=650&lines=Turning+ambitious+ideas+into+reality.;Building+intelligent+software+systems.;Architecting+scalable+backend+APIs.;Exploring+machine+learning+%26+orbital+dynamics." alt="Typing SVG" />
-</a>
+<!-- Static Tagline (No Blink) -->
+<h3><i>Turning ambitious ideas into reality.</i></h3>
 
-<br><br>
+<br>
 
 <a href="https://linkedin.com/in/ayushmali">
-  <img src="https://img.shields.io/badge/LinkedIn-1E1E2E?style=for-the-badge&logo=linkedin&logoColor=89B4FA&border=89B4FA"/>
+  <img src="https://img.shields.io/badge/LinkedIn-282A36?style=for-the-badge&logo=linkedin&logoColor=ffffff"/>
 </a>
 <a href="mailto:ayushmali1904@gmail.com">
-  <img src="https://img.shields.io/badge/Email-1E1E2E?style=for-the-badge&logo=gmail&logoColor=F38BA8&border=F38BA8"/>
+  <img src="https://img.shields.io/badge/Email-282A36?style=for-the-badge&logo=gmail&logoColor=ffffff"/>
 </a>
 
 </div>
@@ -25,68 +23,92 @@
 
 I am a Computer Science Engineering student focused on building highly scalable, enterprise-grade platforms. My work bridges the gap between complex backend architecture and machine learning, with a strong emphasis on clean system design and computational intelligence.
 
-* **🎓 Education:** Pursuing a Bachelor of Engineering in Computer Science.
-* **🌱 Currently Exploring:** Deep Learning Architectures, Distributed System Design, and Orbital Dynamics.
-* **💡 Philosophy:** Turning ambitious ideas into reality through resilient backend systems and intuitive AI integration.
-
----
-
-### 🛠️ Technical Arsenal
-
-<div align="center">
-
-#### 💻 Languages
-<img src="https://skillicons.dev/icons?i=python,java,js,ts,cpp,html,css" />
-
-#### ⚙️ Backend Engineering
-<img src="https://skillicons.dev/icons?i=fastapi,django,flask,nodejs,express" />
-
-#### 🎨 Frontend Development
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,redux" />
-
-#### 🤖 AI & Machine Learning
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,scikit" />
-
-#### 🗄️ Databases & Infrastructure
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,docker,git,linux" />
-
-</div>
+*   **🎓 Education:** Pursuing a Bachelor of Engineering in Computer Science.
+*   **🌱 Exploring:** Advanced Deep Learning architectures, Distributed System Design, and SGP4 Orbital Propagation.
+*   **💡 Philosophy:** Form follows function—crafting systems that are as technically robust as they are visually cinematic.
 
 ---
 
 ### 🛰️ Featured Architecture & Projects
 
-| Project | Description |
-| :--- | :--- |
-| **🛰️ PANAMÆRA** | An enterprise-grade aerospace mission planning platform processing satellite TLE data, integrating physics and machine learning for advanced orbital analysis. |
-| **🏭 RelayOps** | An operational continuity platform designed for industrial environments to ensure seamless workflow automation and real-time fault tolerance. |
-| **🧬 GenoScope** | A computational genomics intelligence platform featuring DNA sequence analysis, mutation detection, and interactive protein visualization. |
-| **📄 OmniParse** | An AI-powered multimodal document intelligence system engineered for complex automated data extraction and structural parsing. |
+<table width="100%">
+  <tr>
+    <th width="35%" align="left">Project</th>
+    <th width="65%" align="left">Description</th>
+  </tr>
+  <tr>
+    <td><b>PANAMÆRA</b></td>
+    <td>An enterprise-grade scalable platform processing satellite TLE data, integrating physics and machine learning for advanced orbital analysis.</td>
+  </tr>
+  <tr>
+    <td><b>GenoScope</b></td>
+    <td>A full-stack computational genomics intelligence platform featuring DNA sequence analysis, mutation detection, and protein visualization.</td>
+  </tr>
+  <tr>
+    <td><b>RelayOps</b></td>
+    <td>Operational continuity platform for industrial environments ensuring seamless workflows and system reliability.</td>
+  </tr>
+  <tr>
+    <td><b>OmniParse</b></td>
+    <td>AI-powered multimodal document intelligence system for complex data extraction and parsing.</td>
+  </tr>
+</table>
+
+---
+
+### 🛠 Technical Arsenal
+
+<div align="center">
+  
+**Languages** <br>
+<img src="https://skillicons.dev/icons?i=python,java,js,ts,cpp" /><br><br>
+
+**Frontend Development** <br>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,html,css" /><br><br>
+
+**Backend Engineering** <br>
+<img src="https://skillicons.dev/icons?i=fastapi,django,flask,nodejs,express" /><br><br>
+
+**Databases & Infrastructure** <br>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,docker,linux,git" /><br><br>
+
+**AI & Machine Learning** <br>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,scikit" /><br>
+
+</div>
 
 ---
 
 ### 📊 GitHub Analytics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=la777am&show_icons=true&theme=catppuccin_mocha&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=la777am&layout=compact&theme=catppuccin_mocha&hide_border=true" alt="Top Languages" />
-</p>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <!-- Simplified Stats URL -->
+        <img src="https://github-readme-stats.vercel.app/api?username=la777am&show_icons=true" alt="GitHub Stats" />
+      </td>
+      <td align="center">
+        <!-- Simplified Top Languages URL -->
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=la777am&layout=compact" alt="Top Languages" />
+      </td>
+    </tr>
+  </table>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=la777am&theme=catppuccin-mocha&hide_border=true" alt="GitHub Streak" />
-</p>
+  <!-- Simplified Streak URL -->
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=la777am" alt="GitHub Streak" />
+</div>
 
 ---
 
 ### 📈 Contribution Activity
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=la777am&theme=catppuccin-mocha&hide_border=true" alt="Activity Graph" />
-</p>
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=la777am&theme=react&hide_border=true" alt="Activity Graph" />
+</div>
 
----
+<br><br>
 
 <div align="center">
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=la777am&style=for-the-badge&color=CBA6F7&labelColor=1E1E2E&label=PROFILE+VIEWS" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=la777am&style=for-the-badge&color=990000&labelColor=282A36&label=PROFILE+VIEWS" alt="Profile Views"/>
 </div>
