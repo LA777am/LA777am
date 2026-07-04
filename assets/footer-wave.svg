@@ -1,39 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" fill="none">
+<svg width="100%" height="220" viewBox="0 0 1600 220" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
   <defs>
-    <linearGradient id="footerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#6C63FF;stop-opacity:0.1"/>
-      <stop offset="50%" style="stop-color:#00ff41;stop-opacity:0.05"/>
-      <stop offset="100%" style="stop-color:#6C63FF;stop-opacity:0.1"/>
+    <linearGradient id="bgFade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d12"/>
+      <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
-    <linearGradient id="footerLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#6C63FF;stop-opacity:0"/>
-      <stop offset="50%" style="stop-color:#6C63FF;stop-opacity:0.6"/>
-      <stop offset="100%" style="stop-color:#6C63FF;stop-opacity:0"/>
+    <linearGradient id="waveDeep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#990000" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#990000" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#990000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="waveMid" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e63946" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#c1121f" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#e63946" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="waveLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#990000" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ff1a1a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#990000" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <style>
-    @keyframes footerPulse {
-      0%, 100% { opacity: 0.2; }
-      50% { opacity: 0.5; }
-    }
-    @keyframes footerWave {
-      0% { d: path("M 0 30 Q 300 10, 600 30 Q 900 50, 1200 30 L 1200 100 L 0 100 Z"); }
-      50% { d: path("M 0 30 Q 300 50, 600 30 Q 900 10, 1200 30 L 1200 100 L 0 100 Z"); }
-      100% { d: path("M 0 30 Q 300 10, 600 30 Q 900 50, 1200 30 L 1200 100 L 0 100 Z"); }
-    }
-    .footer-wave { animation: footerWave 8s ease-in-out infinite; }
-    .footer-pulse { animation: footerPulse 3s ease-in-out infinite; }
-  </style>
 
-  <!-- Top accent line -->
-  <rect x="0" y="0" width="1200" height="1" fill="url(#footerLine)"/>
+  <rect width="1600" height="220" fill="url(#bgFade)"/>
 
-  <!-- Animated wave fill -->
-  <path class="footer-wave" d="M 0 30 Q 300 10, 600 30 Q 900 50, 1200 30 L 1200 100 L 0 100 Z" fill="url(#footerGrad)"/>
+  <g transform="scale(1, -1) translate(0, -220)">
+    <path fill="url(#waveDeep)">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite"
+        values="
+        M0,140 C 200,180 400,100 600,140 C 800,180 1000,100 1200,140 C 1400,180 1500,120 1600,140 L1600,220 L0,220 Z;
+        M0,140 C 200,100 400,180 600,140 C 800,100 1000,180 1200,140 C 1400,100 1500,160 1600,140 L1600,220 L0,220 Z;
+        M0,140 C 200,180 400,100 600,140 C 800,180 1000,100 1200,140 C 1400,180 1500,120 1600,140 L1600,220 L0,220 Z"/>
+    </path>
 
-  <!-- Secondary wave -->
-  <path class="footer-pulse" d="M 0 50 Q 200 35, 400 50 Q 600 65, 800 50 Q 1000 35, 1200 50 L 1200 100 L 0 100 Z" fill="url(#footerGrad)" opacity="0.5"/>
+    <path fill="url(#waveMid)">
+      <animate attributeName="d" dur="7s" repeatCount="indefinite"
+        values="
+        M0,160 C 220,120 420,190 620,160 C 820,120 1020,190 1220,160 C 1400,130 1500,180 1600,160 L1600,220 L0,220 Z;
+        M0,160 C 220,190 420,120 620,160 C 820,190 1020,120 1220,160 C 1400,190 1500,140 1600,160 L1600,220 L0,220 Z;
+        M0,160 C 220,120 420,190 620,160 C 820,120 1020,190 1220,160 C 1400,130 1500,180 1600,160 L1600,220 L0,220 Z"/>
+    </path>
 
-  <!-- End of transmission text -->
-  <text x="600" y="80" font-family="'Courier New', monospace" font-size="9" fill="#555555" text-anchor="middle" letter-spacing="4" opacity="0.4">END OF TRANSMISSION // LA777am</text>
+    <path fill="none" stroke="url(#waveLine)" stroke-width="1.5">
+      <animate attributeName="d" dur="5s" repeatCount="indefinite"
+        values="
+        M0,120 C 200,90 400,150 600,120 C 800,90 1000,150 1200,120 C 1400,90 1500,140 1600,120;
+        M0,120 C 200,150 400,90 600,120 C 800,150 1000,90 1200,120 C 1400,150 1500,100 1600,120;
+        M0,120 C 200,90 400,150 600,120 C 800,90 1000,150 1200,120 C 1400,90 1500,140 1600,120"/>
+    </path>
+  </g>
 </svg>

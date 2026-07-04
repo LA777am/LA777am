@@ -139,5 +139,5 @@
 <br/>
 
 <div align="center">
-<img src="./assets/header-wave.svg" width="100%" alt="footer wave"/>
+<img src="./assets/footer-wave.svg" width="100%" alt="footer wave"/>
 </div>
