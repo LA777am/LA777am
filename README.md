@@ -117,7 +117,7 @@
 </div>
 
 <p align="center">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=la777am&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=la777am&show_icons=true&theme=tokyonight&hide_border=true&hide=commits"/>
 </p>
 <p align="center">
 <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=la777am&layout=compact&theme=tokyonight&hide_border=true"/>
