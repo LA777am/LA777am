@@ -33,7 +33,7 @@
 **Computer Science Engineering Student**
 
 ### **Focused On**
-- AI Engineering
+- Data Structures
 - Backend Development
 - System Design
 
