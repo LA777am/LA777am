@@ -43,34 +43,7 @@
 
 <br/>
 
-<div align="center">
-<h2>💻 FEATURED PROJECTS</h2>
-</div>
 
-<table align="center" width="100%">
-<tr>
-<td align="center" width="50%">
-<h3>🛰️ PANAMÆRA</h3>
-<p><i>Autonomous orbital route planning platform powered by SGP4 mechanics and real-time 3D visualization.</i></p>
-</td>
-<td align="center" width="50%">
-<h3>⚙️ RelayOps</h3>
-<p><i>High-throughput API gateway with rate limiting and traffic orchestration at the infrastructure layer.</i></p>
-</td>
-</tr>
-<tr>
-<td align="center" width="50%">
-<h3>🧬 GenoScope</h3>
-<p><i>Computational genomics platform for sequence analysis, visualization, and predictive modeling.</i></p>
-</td>
-<td align="center" width="50%">
-<h3>📡 OmniParse</h3>
-<p><i>Unified document and data parsing engine built for speed, structure, and extensibility.</i></p>
-</td>
-</tr>
-</table>
-
-<br/>
 
 <div align="center">
 <h2>🛠 TECH STACK</h2>
