@@ -4,6 +4,13 @@
 
 <br/>
 
+<img src="https://img.shields.io/badge/DRIVEN_BY-Curiosity-0d1117?style=for-the-badge&labelColor=6C63FF" alt="Driven By"/>
+<img src="https://img.shields.io/badge/CURRENT_FOCUS-AI_Systems_%E2%80%A2_Backend_Engineering-0d1117?style=for-the-badge&labelColor=6C63FF" alt="Current Focus"/>
+
+<br/>
+<br/>
+<br/>
+
 <a href="https://github.com/la777am">
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=28&duration=2800&pause=900&color=E57373&center=true&vCenter=true&width=1100&lines=Turning+Ambitious+Ideas+Into+Reality.;Building+Software+That+Challenges+Code+%26+Curiosity." alt="Typing SVG" />
 </a>
