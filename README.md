@@ -23,12 +23,11 @@
 
 ---
 
-### `> whoami`
+### `>_whoami`
 
 B.E. Computer Science Engineering student building production-grade systems across **AI/ML**, **backend engineering**, and **full-stack development**. Focused on writing clean, scalable code that solves real problems.
 
 ```
-Location       India
 Education      B.E. in Computer Science & Engineering
 Focus          Data Structures · Backend Development · System Design
 Learning       Machine Learning · Deep Learning · Orbital Dynamics
@@ -36,7 +35,7 @@ Learning       Machine Learning · Deep Learning · Orbital Dynamics
 
 ---
 
-### `> ls projects/`
+### `>_ls top_projects/`
 
 | | Project | What It Does |
 |---|---------|-------------|
@@ -47,7 +46,7 @@ Learning       Machine Learning · Deep Learning · Orbital Dynamics
 
 ---
 
-### `> cat tech_stack.yml`
+### `>_cat tech_stack.yml`
 
 <div align="center">
 
@@ -90,7 +89,7 @@ Learning       Machine Learning · Deep Learning · Orbital Dynamics
 ---
 
 <div align="center">
-<h3><code>> git log --graph</code></h3>
+<h3><code>>_git log --graph</code></h3>
 </div>
 
 <p align="center">
