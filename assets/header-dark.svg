@@ -101,7 +101,7 @@
   </g>
 
   <!-- Main Title -->
-  <text x="600" y="120" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="6" filter="url(#textGlow)">
+  <text x="600" y="120" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="72" font-weight="300" fill="#ffffff" text-anchor="middle" letter-spacing="8" filter="url(#textGlow)">
     Ayush Mali
   </text>
 
