@@ -6,44 +6,48 @@
 <br/>
 
 <a href="https://github.com/la777am">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=2800&pause=900&color=58a6ff&center=true&vCenter=true&width=900&lines=Turning+Ambitious+Ideas+Into+Reality.;Building+Software+That+Challenges+Code+%26+Curiosity." alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2800&pause=900&color=c9a84c&center=true&vCenter=true&width=800&lines=Turning+Ambitious+Ideas+Into+Reality.;Building+Software+That+Challenges+Code+%26+Curiosity." alt="Typing SVG" />
 </a>
 
 <br/>
 
 <a href="mailto:ayushmali1904@gmail.com">
-<img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=58a6ff" />
+<img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=c9a84c" />
 </a>
 <a href="https://linkedin.com/in/ayushmali">
-<img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=58a6ff" />
+<img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=c9a84c" />
 </a>
-<img src="https://komarev.com/ghpvc/?username=la777am&label=Profile+Views&color=58a6ff&style=flat" alt="profile views"/>
+<img src="https://komarev.com/ghpvc/?username=la777am&label=Profile+Views&color=c9a84c&style=flat" alt="profile views"/>
 
 </div>
 
 ---
 
-## 🚀 About
+### `> whoami`
 
-Software Engineer specializing in **AI/ML** and **full-stack development**, building scalable real-time systems from orbital debris pipelines to genomics platforms. Currently pursuing B.E. in Computer Science & Engineering.
+B.E. Computer Science Engineering student building production-grade systems across **AI/ML**, **backend engineering**, and **full-stack development**. Focused on writing clean, scalable code that solves real problems.
 
-**Focused On:** Data Structures · Backend Development · System Design  
-**Currently Learning:** Machine Learning · Deep Learning · Orbital Dynamics
-
----
-
-## 💻 Projects
-
-| Project | Description |
-|---------|-------------|
-| 🛰️ **PANAMÆRA** | Real-time orbital debris avoidance platform with SGP4 mechanics and 3D visualization |
-| 🧬 **GenoScope** | Computational genomics platform for DNA sequence analysis and predictive modeling |
-| 📡 **OmniParse AI** | Document intelligence and RAG pipeline for semantic retrieval and PDF processing |
-| ⚙️ **FinOps Guardian** | Cloud cost intelligence engine with automated forecasting across AWS, Azure, and GCP |
+```
+Location       India
+Education      B.E. in Computer Science & Engineering
+Focus          Data Structures · Backend Development · System Design
+Learning       Machine Learning · Deep Learning · Orbital Dynamics
+```
 
 ---
 
-## 🛠 Tech Stack
+### `> ls projects/`
+
+| | Project | What It Does |
+|---|---------|-------------|
+| 🛰️ | **PANAMÆRA** | Real-time orbital debris avoidance with SGP4 mechanics and 3D visualization |
+| 🧬 | **GenoScope** | DNA sequence analysis, predictive modeling, and genomic profiling |
+| 📡 | **OmniParse AI** | Document intelligence platform with RAG-based semantic retrieval |
+| ⚙️ | **FinOps Guardian** | Cloud cost forecasting engine across AWS, Azure, and GCP |
+
+---
+
+### `> cat tech_stack.yml`
 
 <div align="center">
 
@@ -86,7 +90,7 @@ Software Engineer specializing in **AI/ML** and **full-stack development**, buil
 ---
 
 <div align="center">
-<h2>📈 Contribution Graph</h2>
+<h3><code>> git log --graph</code></h3>
 </div>
 
 <p align="center">
