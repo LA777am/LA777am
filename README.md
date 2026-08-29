@@ -93,7 +93,7 @@ Learning       Machine Learning · Deep Learning · Orbital Dynamics
 </div>
 
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=la777am&theme=tokyo-night&hide_border=true" alt="Contribution Graph"/>
+<img src="https://ghchart.rshah.org/c9a84c/la777am" alt="Contribution Graph"/>
 </p>
 
 <br/>
