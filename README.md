@@ -69,20 +69,20 @@ Learning       Machine Learning · Deep Learning · Orbital Dynamics
 <br/>
 
 **Databases**  
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis" /> <br/>
-`PostgreSQL` · `MongoDB` · `MySQL` · `Redis`
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,redis" /> <br/>
+`PostgreSQL` · `MongoDB` · `SQLite` · `Redis`
 
 <br/>
 
 **AI / ML**  
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn" /> <br/>
-`PyTorch` · `Scikit-learn` · `Pandas` · `NumPy` · `LightGBM`
+<img src="https://skillicons.dev/icons?i=tensorflow,sklearn" /> <br/>
+`Scikit-learn` · `Pandas` · `NumPy`
 
 <br/>
 
 **DevOps & Tools**  
-<img src="https://skillicons.dev/icons?i=docker,git,linux,postman" /> <br/>
-`Docker` · `Git` · `Linux` · `GitHub Actions`
+<img src="https://skillicons.dev/icons?i=docker,git,linux,postman,grafana,prometheus" /> <br/>
+`Docker` · `Git` · `Linux` · `GitHub Actions` · `Grafana` · `Prometheus` · `Loki`
 
 </div>
 
