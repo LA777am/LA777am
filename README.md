@@ -88,15 +88,6 @@ Learning       Machine Learning · Deep Learning · Orbital Dynamics
 
 ---
 
-### `>_neofetch github_stats`
-
-<p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=la777am&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9a84c&icon_color=c9a84c&text_color=ffffff" alt="GitHub Stats" width="48%" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=la777am&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=c9a84c&icon_color=c9a84c&text_color=ffffff" alt="Top Languages" width="48%" />
-</p>
-
----
-
 
 <div align="center">
 <h3><code>>_git log --graph</code></h3>
